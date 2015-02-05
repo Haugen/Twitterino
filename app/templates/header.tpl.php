@@ -60,5 +60,5 @@ include('commons.php');
   <div class="container">
     <?php
       if(isset($_SESSION['messages']))
-        print_info();
+        echo print_info();
     ?>

@@ -38,7 +38,7 @@ function print_info() {
   $info .= '</div>';
   // Reset the messages.
   unset($_SESSION['messages']);
-  echo $info;
+  return $info;
 }
 
 /**
